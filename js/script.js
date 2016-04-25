@@ -15,10 +15,11 @@ var myItems = [
   ["question one", " question one"]
   ["question two", " asnwer two"]
   ];
+var i=0;
 var secondList = "<ul>";
-while(var i=0; i< myItems.length;i++;){
+while( i< myItems.length;){
   secondList+= "<li>" +myItems[i] + "</li>" ;
-}
+i++;}
 secontlist+="</ul>";
 
 document.write(secondList);
