@@ -15,4 +15,4 @@ var myItems = [
   ["question one", " question one"]
   ["question two", " asnwer two"]];
 
-document.write("<p>" +myItems[0] + "</p>" )
+document.write("<p>" +myItems[0][1] + "</p>" )
