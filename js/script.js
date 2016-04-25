@@ -13,6 +13,11 @@ document.write("<ol>" + list + "</ol>");
 
 var myItems = [
   ["question one", " question one"]
-  ["question two", " asnwer two"]];
+  ["question two", " asnwer two"]
+  ];
 
-document.write("<p>" +myItems[0][1] + "</p>" )
+while(i< myItems.length){
+  document.write("<li>" +myItems[i] + "</li>" );
+}
+
+
