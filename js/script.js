@@ -20,6 +20,6 @@ var secondList = "<ul>";
 while( i< myItems.length){
   secondList+= "<li>" +myItems[i] + "</li>" ;
 i++;}
-secontlist+="</ul>";
+secondlist+="</ul>";
 
 document.write(secondList);
