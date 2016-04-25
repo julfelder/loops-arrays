@@ -11,6 +11,8 @@ while (count < 10) {
 document.write("<h1>Loops</h1>");
 document.write("<ol>" + list + "</ol>");
 
-var myItems = ["question one", " question two"];
+var myItems = [
+  ["question one", " question one"]
+  ["question two", " asnwer two"]];
 
 document.write("<p>" +myItems[0] + "</p>" )
