@@ -16,7 +16,7 @@ var myItems = [
   ["question two", " asnwer two"]
   ];
 var secondList = "<ul>";
-while(i< myItems.length){
+while(var i=0; i< myItems.length){
   secondList+= "<li>" +myItems[i] + "</li>" ;
 }
 secontlist+="</ul>";
